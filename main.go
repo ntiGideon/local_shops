@@ -2,6 +2,9 @@ package main
 
 import (
 	"baseProject/config"
+	"baseProject/controller"
+	"baseProject/routes"
+	"baseProject/service"
 	"fmt"
 	"github.com/joho/godotenv"
 	"log"
@@ -20,15 +23,20 @@ func main() {
 
 	//db connections
 	connectionString := fmt.Sprintf("host=%v port=%v user=%v dbname=%s password=%s sslmode=require", os.Getenv("DB_HOST"), os.Getenv("DB_PORT"), os.Getenv("DB_USER"), os.Getenv("DB_NAME"), os.Getenv("DB_PASS"))
-	_, err = config.ConnectDb(connectionString)
+	entClient, err := config.ConnectDb(connectionString)
 	if err != nil {
 		log.Fatal(err)
 	}
 
+	userService := service.NewUserService(entClient)
+	userController := controller.NewUserController(*userService)
+
+	appRoutes := routes.NewRouter(userController)
+
 	//server here
 	server := http.Server{
 		Addr:           os.Getenv("PORT"),
-		Handler:        nil,
+		Handler:        appRoutes,
 		ReadTimeout:    10 * time.Second,
 		WriteTimeout:   10 * time.Second,
 		MaxHeaderBytes: 1 << 20,
