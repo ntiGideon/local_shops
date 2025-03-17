@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975593471" />
+          <option name="id" value="372316ce-7f82-4976-9bff-10f7d72cc883" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:06:33 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="372316ce-7f82-4976-9bff-10f7d72cc883" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975600249" />
+          <option name="id" value="bdf697b0-7ec6-4cfa-b35b-8fe20df584a5" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:06:36 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="bdf697b0-7ec6-4cfa-b35b-8fe20df584a5" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="3773" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975611998" />
+          <option name="id" value="37d27e5f-aa0d-4595-ace3-847fd5012d06" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:06:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="37d27e5f-aa0d-4595-ace3-847fd5012d06" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975624979" />
+          <option name="id" value="b0cec53d-4639-49b2-963a-6b6e1e2ce120" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:07:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b0cec53d-4639-49b2-963a-6b6e1e2ce120" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975630211" />
+          <option name="id" value="5435b261-f8c4-4b10-b70f-16386ab9a691" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:07:10 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5435b261-f8c4-4b10-b70f-16386ab9a691" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975655529" />
+          <option name="id" value="9ca6ab1c-781c-4342-bb4f-7a16b7ded5ba" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:07:35 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="9ca6ab1c-781c-4342-bb4f-7a16b7ded5ba" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975687518" />
+          <option name="id" value="3345a40d-f203-42f1-94cb-e7c2df51270b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:08:07 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3345a40d-f203-42f1-94cb-e7c2df51270b" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975742130" />
+          <option name="id" value="538698df-67f6-4821-a469-8162c982a89a" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;names&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="2" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:09:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="538698df-67f6-4821-a469-8162c982a89a" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="3" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975744265" />
+          <option name="id" value="90892369-39fc-416a-870f-c679adc0142e" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;names&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:09:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="90892369-39fc-416a-870f-c679adc0142e" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="2" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1741975749123" />
+          <option name="id" value="a70e796f-c3aa-4dc2-b976-aa783cc2aa8f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="  {&#10;    &quot;name&quot;: &quot;Gideon Nti Boateng&quot;,&#10;    &quot;email&quot;: &quot;gideon.boateng@amalitech.com&quot;,&#10;    &quot;password&quot;: &quot;Aladdin200*&quot;,&#10;    &quot;phone&quot;: &quot;0555285176&quot;&#10;}&#10;" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="fcce7f60-eb05-4956-88d9-9aa09c042385" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:9090/api/v1/user/register" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjo1MDAsIm1lc3NhZ2UiOiJzcWw6IGRhdGFiYXNlIGlzIGNsb3NlZCIsImRhdGEiOm51bGx9Cg==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: 500,&#10;  &quot;message&quot;: &quot;sql: database is closed&quot;,&#10;  &quot;data&quot;: null&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="1" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 14 Mar 2025 18:09:09 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="61" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a70e796f-c3aa-4dc2-b976-aa783cc2aa8f" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:500,&quot;message&quot;:&quot;sql: database is closed&quot;,&quot;data&quot;:null}&#10;" />
+              <option name="size" value="61" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>

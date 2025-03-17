@@ -18,7 +18,7 @@ func NewUserController(userService service.UserService) *UserController {
 
 func (controller *UserController) Register(w http.ResponseWriter, r *http.Request, params httprouter.Params) {
 	userDto := dto.RegisterUserDto{}
-	helpers.ReadRequestBody(r, userDto)
+	helpers.ReadRequestBody(r, &userDto)
 	webResponse := controller.UserService.Register(r.Context(), &userDto)
 	helpers.WriteResponseBody(w, webResponse, webResponse.Code)
 }

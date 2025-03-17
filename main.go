@@ -22,7 +22,7 @@ func main() {
 	fmt.Printf("Server starting on PORT %s \n", os.Getenv("PORT"))
 
 	//db connections
-	connectionString := fmt.Sprintf("host=%v port=%v user=%v dbname=%s password=%s sslmode=require", os.Getenv("DB_HOST"), os.Getenv("DB_PORT"), os.Getenv("DB_USER"), os.Getenv("DB_NAME"), os.Getenv("DB_PASS"))
+	connectionString := fmt.Sprintf("host=%v port=%v user=%v dbname=%s password=%s sslmode=%v", os.Getenv("DB_HOST"), os.Getenv("DB_PORT"), os.Getenv("DB_USER"), os.Getenv("DB_NAME"), os.Getenv("DB_PASS"), os.Getenv("DB_SSL_MODE"))
 	entClient, err := config.ConnectDb(connectionString)
 	if err != nil {
 		log.Fatal(err)

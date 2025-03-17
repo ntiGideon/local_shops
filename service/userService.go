@@ -29,13 +29,7 @@ func (p *UserService) Register(ctx context.Context, userDto *dto.RegisterUserDto
 	}
 
 	existingUser, err := p.Db.User.Query().Where(user.EmailEQ(userDto.Email)).Only(ctx)
-	if err != nil {
-		return &data.WebResponse{
-			Code:    http.StatusInternalServerError,
-			Message: err.Error(),
-			Data:    nil,
-		}
-	}
+
 	if existingUser != nil {
 		return &data.WebResponse{
 			Code:    http.StatusBadRequest,
@@ -55,6 +49,6 @@ func (p *UserService) Register(ctx context.Context, userDto *dto.RegisterUserDto
 	return &data.WebResponse{
 		Code:    http.StatusCreated,
 		Message: "User created",
-		Data:    userDto,
+		Data:    nil,
 	}
 }
