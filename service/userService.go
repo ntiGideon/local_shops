@@ -28,12 +28,15 @@ func (p *UserService) Register(ctx context.Context, userDto *dto.RegisterUserDto
 		}
 	}
 
-	existingUser, err := p.Db.User.Query().Where(user.EmailEQ(userDto.Email)).Only(ctx)
+	existingUser, err := p.Db.User.Query().Where(user.Or(
+		user.EmailEQ(userDto.Email),
+		user.PhoneEQ(userDto.Phone),
+	)).Only(ctx)
 
 	if existingUser != nil {
 		return &data.WebResponse{
 			Code:    http.StatusBadRequest,
-			Message: "User already exists",
+			Message: "User email/phone already in-use!",
 			Data:    nil,
 		}
 	}

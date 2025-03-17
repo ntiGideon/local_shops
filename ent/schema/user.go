@@ -4,6 +4,7 @@ import (
 	"entgo.io/ent"
 	"entgo.io/ent/schema/edge"
 	"entgo.io/ent/schema/field"
+	"entgo.io/ent/schema/index"
 	"time"
 )
 
@@ -17,9 +18,12 @@ func (User) Fields() []ent.Field {
 	return []ent.Field{
 		field.Int("id"),
 		field.String("name"),
-		field.String("email"),
+		field.String("email").Unique(),
 		field.String("password"),
-		field.String("phone").Optional(),
+		//field.Enum("state").Values("FRESH", "DELETED", "VERIFIED").Default("FRESH").SchemaType(map[string]string{
+		//	dialect.Postgres: "varchar",
+		//}),
+		field.String("phone").Unique().Optional(),
 		field.Time("created_at").Default(time.Now),
 	}
 }
@@ -28,5 +32,12 @@ func (User) Fields() []ent.Field {
 func (User) Edges() []ent.Edge {
 	return []ent.Edge{
 		edge.To("reviews", Review.Type),
+	}
+}
+
+// Indexes set index on email field to improve speed of data retrieval
+func (User) Indexes() []ent.Index {
+	return []ent.Index{
+		index.Fields("email").Unique(),
 	}
 }
